@@ -3,9 +3,9 @@ let defaultResolver;
 module.exports = () => {
   if (!defaultResolver) {
     try {
-      defaultResolver = require(`jest-resolve/build/defaultResolver`).default;
+      defaultResolver = require(`@pkg-nec/jest-resolve/build/defaultResolver`).default;
     } catch (error) {
-      defaultResolver = require(`jest-resolve/build/default_resolver`).default;
+      defaultResolver = require(`@pkg-nec/jest-resolve/build/default_resolver`).default;
     }
   }
 
