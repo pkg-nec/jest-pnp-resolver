@@ -9,9 +9,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pkg-nec/jest-pnp-resolver@workspace:."
   peerDependencies:
-    jest-resolve: "*"
+    "@pkg-nec/jest-resolve": "*"
   peerDependenciesMeta:
-    jest-resolve:
+    "@pkg-nec/jest-resolve":
       optional: true
   languageName: unknown
   linkType: soft

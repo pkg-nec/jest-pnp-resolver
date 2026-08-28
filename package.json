@@ -24,10 +24,10 @@
     "registry": "https://registry.npmjs.org"
   },
   "peerDependencies": {
-    "jest-resolve": "*"
+    "@pkg-nec/jest-resolve": "*"
   },
   "peerDependenciesMeta": {
-    "jest-resolve": {
+    "@pkg-nec/jest-resolve": {
       "optional": true
     }
   },
