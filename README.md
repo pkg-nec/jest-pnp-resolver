@@ -1,14 +1,14 @@
 # <img src="https://github.com/facebook/jest/blob/master/website/static/img/jest.png" height="40" align="right" /> [Plug'n'Play](https://github.com/yarnpkg/rfcs/pull/101) resolver for Jest
 
-[![npm version](https://img.shields.io/npm/v/jest-pnp-resolver.svg)](https://www.npmjs.com/package/jest-pnp-resolver)
-[![node version](https://img.shields.io/node/v/jest-pnp-resolver.svg)](https://www.npmjs.com/package/jest-pnp-resolver)
+[![npm version](https://img.shields.io/npm/v/%40pkg-nec%2Fjest-pnp-resolver.svg)](https://www.npmjs.com/package/@pkg-nec/jest-pnp-resolver)
+[![node version](https://img.shields.io/node/v/%40pkg-nec%2Fjest-pnp-resolver.svg)](https://www.npmjs.com/package/@pkg-nec/jest-pnp-resolver)
 
 *This plugin is also available for Rollup ([rollup-plugin-pnp-resolve](https://github.com/arcanis/rollup-plugin-pnp-resolve)), TypeScript ([ts-pnp](https://github.com/arcanis/ts-pnp)), and Webpack ([pnp-webpack-plugin](https://github.com/arcanis/pnp-webpack-plugin))*
 
 ## Installation
 
 ```
-yarn add -D jest-pnp-resolver
+yarn add -D @pkg-nec/jest-pnp-resolver
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ Simply add the resolver to your configuration. For example, a minimal `jest.conf
 
 ```js
 module.exports = {
-  resolver: require.resolve(`jest-pnp-resolver`)
+  resolver: require.resolve(`@pkg-nec/jest-pnp-resolver`)
 };
 ```
 

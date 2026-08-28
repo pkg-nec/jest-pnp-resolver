@@ -5,9 +5,9 @@ __metadata:
   version: 10
   cacheKey: 10c0
 
-"jest-pnp-resolver@workspace:.":
+"@pkg-nec/jest-pnp-resolver@workspace:.":
   version: 0.0.0-use.local
-  resolution: "jest-pnp-resolver@workspace:."
+  resolution: "@pkg-nec/jest-pnp-resolver@workspace:."
   peerDependencies:
     jest-resolve: "*"
   peerDependenciesMeta:
